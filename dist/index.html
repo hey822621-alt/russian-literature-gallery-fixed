@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#eee9de"/>
+<meta name="description" content="俄罗斯文学的流动画廊：以中俄双语和逐情节独立油画，探索普希金、果戈里、陀思妥耶夫斯基、托尔斯泰与契诃夫的文学世界。"/>
+<title>俄罗斯文学的流动画廊</title>
+<style>:root{--page:#f2eee6;--paper:#f9f6ef;--text:#312b27;--muted:#7b7168;--line:#d8cfc1;--accent:#a87c4a;--tone:#f1e8d9;--ink:#3f342c;--ease:cubic-bezier(.22,1,.36,1);--font-zh:"FangSong","仿宋","STFangsong","FangSong_GB2312","Noto Serif CJK SC","Songti SC",serif;--font-ru:"Times New Roman",Georgia,serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;background:var(--page);color:var(--text);font-family:var(--font-zh);font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}body.lightbox-open{overflow:hidden}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}img{max-width:100%;display:block}::selection{background:#ccb899;color:#241d17}.ru{font-family:var(--font-ru)!important;letter-spacing:.045em}.eyebrow,.line-label{font-size:12px;letter-spacing:.21em;font-weight:600;color:var(--accent)}.ornament{font-family:var(--font-ru);font-size:19px;vertical-align:-1px;margin-right:10px}.scroll-indicator{height:2px;position:fixed;top:0;left:0;width:0;background:#9c7b50;z-index:101;transition:width .15s linear}
+.site-header{position:fixed;inset:0 0 auto;min-height:79px;padding:0 clamp(22px,5vw,86px);display:flex;align-items:center;justify-content:space-between;gap:28px;z-index:100;background:rgba(250,248,242,.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid #d6ccbc77;transition:background .4s ease,box-shadow .4s ease}.site-header.scrolled{background:rgba(250,248,242,.96);box-shadow:0 8px 40px #3831250d}.brand{display:flex;align-items:center;gap:12px;flex:none}.brand-mark{font-family:var(--font-ru);font-size:33px;display:grid;place-items:center;border:1px solid #9d8866;border-radius:50%;width:43px;height:43px;color:#6f563b;line-height:1}.brand-copy{font-size:17px;letter-spacing:.075em;white-space:nowrap}.brand-copy small{font-size:9px;display:block;letter-spacing:.22em;color:#837564;margin-top:3px}.main-nav{display:flex;gap:clamp(16px,2.4vw,39px);align-items:center;margin-left:auto}.main-nav a{font-size:13px;color:#675e53;position:relative;white-space:nowrap}.main-nav a:after{content:'';position:absolute;left:0;bottom:-8px;height:1px;width:100%;transform:scaleX(0);transform-origin:0 0;background:#977452;transition:transform .4s var(--ease)}.main-nav a:hover:after,.main-nav a.active:after{transform:scaleX(1)}.header-actions{display:flex;gap:14px;align-items:center}.lang-toggle{background:none;border:0;border-left:1px solid #cdc1b3;padding:7px 0 7px 20px;color:#524639;cursor:pointer;display:flex;gap:10px;font-family:var(--font-ru);font-size:13px}.lang-arrow{font-size:12px;color:#9f8157}.menu-toggle{display:none;background:none;border:0;padding:12px;cursor:pointer;flex-direction:column;gap:5px}.menu-toggle span{display:block;width:20px;height:1px;background:#3c3128}
+.hero{min-height:min(850px,100vh);height:max(740px,94svh);padding-top:79px;position:relative;isolation:isolate;display:flex;overflow:hidden;background:#e4dac6}.hero-paint{position:absolute;inset:79px 0 0 34%;z-index:-2;overflow:hidden}.hero-paint img{width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.82) sepia(.07);transform:scale(1.07);animation:heroDrift 21s ease-in-out infinite alternate}.hero-photo-glaze{position:absolute;inset:0;background:linear-gradient(90deg,rgba(246,241,229,.85),transparent 21%),linear-gradient(0deg,rgba(41,35,29,.32),transparent 45%)}.hero-paper{width:47%;min-width:490px;background:linear-gradient(95deg,#f4efe5 0%,#f3ede2 75%,#f3ede2e6 91%,transparent 100%);display:flex;flex-direction:column;padding:clamp(45px,5.1vw,92px) 7.1vw 28px clamp(30px,6vw,110px);justify-content:space-between}.hero-paper-top{display:flex;justify-content:space-between;gap:14px;align-items:center;white-space:nowrap}.hero-edition{font-size:10px;letter-spacing:.17em;color:#8f806e}.hero-copy{padding:25px 0 40px;max-width:600px}.hero-copy .eyebrow{letter-spacing:.16em;line-height:1.9;margin:0 0 24px}.hero-title{font-size:clamp(43px,4.55vw,82px);line-height:1.25;font-weight:400;letter-spacing:.07em;margin:0;white-space:nowrap}.hero-title span{display:block}.hero-ru{font-size:clamp(16px,1.35vw,25px);letter-spacing:.15em;margin:17px 0 30px;color:#6e5946}.small-rule{width:90px;height:1px;background:#b5926b;margin:0 0 23px}.hero-intro{font-size:16px;line-height:2.15;color:#74695f;max-width:390px;margin-bottom:35px}.quiet-link{display:inline-flex;align-items:center;gap:26px;font-size:14px;color:#372b23;border-bottom:1px solid #866844;padding:0 0 9px;transition:color .3s}.quiet-link .round-arrow{font-family:var(--font-ru);font-size:20px;display:inline-grid;place-items:center;width:30px;height:30px;border:1px solid #bba17e;border-radius:50%;transition:transform .45s var(--ease),background .45s}.quiet-link:hover .round-arrow{transform:translate(3px,-3px);background:#eee0ca}.hero-footer{display:flex;gap:13px;align-items:center;justify-content:space-between;border-top:1px solid #cabdab75;padding-top:17px;color:#968774;font-size:10px;line-height:1.5}.hero-footer .ru{letter-spacing:.14em}.hero-side-caption{position:absolute;right:26px;top:calc(50% + 45px);color:#fffaf0ad;font-size:12px;letter-spacing:.24em;writing-mode:vertical-rl;text-shadow:0 1px 4px #0005}
+.section-padding{padding:108px clamp(20px,6vw,110px)}.section-heading{text-align:center;margin:0 auto 46px}.section-heading h2{font-weight:400;font-size:clamp(32px,3.4vw,53px);letter-spacing:.095em;line-height:1.32;margin:18px 0 10px}.section-subtitle{font-size:18px;color:#817363;margin:0}.authors-section{background:#f4f0e9;padding-bottom:102px}.cover-outer{position:relative;max-width:1440px;margin:0 auto;border-radius:1px;overflow:hidden;min-height:600px;isolation:isolate;background:#d2c8b8}.cover-backdrop{position:absolute;inset:-15%;background-position:center;background-size:cover;filter:blur(32px) saturate(.56) brightness(.92);transform:scale(1.13);transition:background-image .6s ease,opacity .8s ease}.cover-glaze{position:absolute;inset:0;background:linear-gradient(90deg,#d9cdc0b0,#eee8d89b 48%,#d6c6b2aa),linear-gradient(0deg,#eae3d5 5%,transparent 58%)}.cover-stage{height:480px;position:relative;perspective:1600px;overflow:hidden;touch-action:pan-y;outline-offset:-4px}.cover-card{position:absolute;top:42px;left:50%;width:clamp(240px,25vw,326px);height:380px;background:#f7f1e6;box-shadow:0 14px 45px #30261945;border:1px solid #fff9;cursor:pointer;padding:0;border-radius:0;transition:transform .8s cubic-bezier(.2,.8,.2,1),opacity .7s ease,filter .7s ease,box-shadow .7s ease;transform-style:preserve-3d;overflow:hidden;will-change:transform}.cover-card[aria-current=true]{box-shadow:0 24px 75px #30261960}.cover-image{height:78%;overflow:hidden;background:#b8b1a8}.cover-image img{height:100%;width:100%;object-fit:cover;filter:saturate(.77);transition:transform 9s ease,filter .9s ease}.cover-card[aria-current=true] .cover-image img{transform:scale(1.075);filter:saturate(.97)}.cover-caption{height:22%;padding:13px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-top:1px solid #d6cabc}.cover-caption strong{font-size:22px;letter-spacing:.12em;font-weight:400;line-height:1.4;white-space:nowrap}.cover-caption span{font-size:12px;color:#79695c}.cover-caption em{font-size:12px;font-style:normal;font-family:var(--font-ru);color:#9c886e;margin-top:4px}.cover-controls{position:relative;display:flex;justify-content:center;gap:30px;align-items:center;margin:10px auto 0}.circle-control{border:1px solid #8c7a6c8c;border-radius:50%;background:#fffcf1aa;width:38px;height:38px;cursor:pointer;transition:background .25s,transform .35s var(--ease)}.circle-control:hover{background:white;transform:scale(1.08)}.count-readout{font-size:13px;min-width:65px;text-align:center;color:#5b4e40}.drag-hint{text-align:center;position:relative;margin:19px 0 22px;font-size:12px;color:#77695c;letter-spacing:.07em}
+.works-section{background:var(--tone);color:var(--ink);transition:background 1s ease,color 1s ease;padding-top:84px}.chapter-brow{max-width:1390px;margin:0 auto 65px;display:flex;justify-content:space-between;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);padding:20px 0 0;color:color-mix(in srgb,var(--ink) 70%,transparent);font-size:12px;letter-spacing:.14em}.author-intro{max-width:1390px;margin:0 auto 45px;display:grid;grid-template-columns:minmax(220px, .75fr) 1.25fr;gap:6vw;align-items:start}.author-name .author-number{color:var(--accent);font-size:13px;margin:0 0 14px;letter-spacing:.21em}.author-name h2{font-size:clamp(39px,4.5vw,68px);line-height:1.2;font-weight:400;letter-spacing:.06em;margin:0 0 8px}.author-name .ru{font-size:18px;margin:0 0 13px;opacity:.75}.author-name .dates{font-size:13px;letter-spacing:.12em;color:var(--accent)}.author-description{padding-top:25px;max-width:700px}.author-description .statement{font-size:clamp(19px,2.1vw,29px);line-height:1.65;margin:0 0 18px;letter-spacing:.04em}.author-description .intro-text{font-size:15px;line-height:2;color:color-mix(in srgb,var(--ink) 74%,transparent);max-width:620px}.author-description .ru{font-size:16px;line-height:1.65;color:color-mix(in srgb,var(--ink) 69%,transparent)}.work-tabs{max-width:1390px;margin:0 auto 0;display:flex;gap:5px;flex-wrap:wrap;border-top:1px solid color-mix(in srgb,var(--ink) 25%,transparent);padding-top:24px;padding-bottom:30px}.work-tab{background:none;border:1px solid transparent;color:var(--ink);opacity:.65;cursor:pointer;display:flex;gap:11px;align-items:center;padding:13px 18px;font-size:15px;transition:opacity .35s,background .35s,transform .35s}.work-tab.active,.work-tab:hover{background:color-mix(in srgb,var(--ink) 8%,transparent);border-color:color-mix(in srgb,var(--ink) 18%,transparent);opacity:1}.work-tab span{font-family:var(--font-ru);opacity:.65;font-size:11px}.artwork-shell{max-width:1390px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(350px,.82fr);min-height:520px;background:var(--paper);box-shadow:0 20px 75px #3e31221a}.stage-media{position:relative;overflow:hidden;min-height:540px;background:#2a2926;isolation:isolate}.stage-images,.stage-image{position:absolute;inset:0;width:100%;height:100%}.stage-image{object-fit:cover;object-position:50% 50%;opacity:0;filter:saturate(.92);transform:scale(1.045);transition:opacity .95s ease,transform 12s linear,filter .8s ease}.stage-image.active{opacity:1;transform:scale(1.105);filter:saturate(1)}.stage-texture{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 48%,transparent 30%,#150f0a42),linear-gradient(0deg,#14100933,transparent 27%);pointer-events:none;z-index:2}.frame-number{position:absolute;bottom:24px;left:26px;color:#fef8e8;z-index:6;font-size:13px;letter-spacing:.13em;text-shadow:0 2px 5px #0008}.expand-image{position:absolute;right:23px;top:23px;width:42px;height:42px;border:1px solid #fffaedaa;background:#1f1c1980;color:white;display:grid;place-items:center;z-index:6;cursor:zoom-in;font-size:22px;transition:background .3s,transform .3s}.expand-image:hover{background:#1c1815;transform:scale(1.05)}.stage-note{padding:clamp(26px,3.4vw,57px);background:color-mix(in srgb,var(--tone) 33%,#f8f6f0);display:flex;flex-direction:column;min-width:0}.stage-note-top{display:flex;justify-content:space-between;align-items:flex-start}.stage-note-top .eyebrow{margin:0}.stage-note-top .ru{font-size:11px;opacity:.7;margin-left:8px}.tiny-diamond{font-family:var(--font-ru);font-size:24px;color:var(--accent)}.stage-copy{margin:auto 0;min-height:240px;transition:opacity .35s ease,transform .35s ease}.stage-copy.changing{opacity:0;transform:translateY(12px)}.note-overline{font-size:12px;letter-spacing:.13em;color:var(--accent);margin:0 0 17px}.stage-copy h3{font-size:clamp(24px,2.55vw,42px);font-weight:400;letter-spacing:.075em;line-height:1.4;margin:0 0 8px}.stage-ru{font-size:17px;line-height:1.5;opacity:.66;margin:0 0 23px}.note-rule{height:1px;width:54px;background:var(--accent);margin:0 0 22px}.stage-desc{font-size:16px;line-height:2.05;color:color-mix(in srgb,var(--ink) 82%,transparent);margin:0}.stage-actions{display:flex;gap:8px;align-items:center;margin:25px 0 19px}.ghost-btn{background:none;border:1px solid color-mix(in srgb,var(--ink) 25%,transparent);height:38px;width:38px;cursor:pointer;color:var(--ink);transition:background .3s,transform .3s}.ghost-btn:hover{background:color-mix(in srgb,var(--ink) 8%,transparent);transform:translateY(-2px)}.divider-vertical{height:27px;width:1px;margin:0 12px;background:color-mix(in srgb,var(--ink) 20%,transparent)}.play-toggle{display:flex;gap:10px;align-items:center;border:none;background:none;color:var(--ink);cursor:pointer;font-size:12px;letter-spacing:.04em;padding:9px}.play-toggle span:first-child{font-size:14px;min-width:18px}.story-progress{height:2px;background:color-mix(in srgb,var(--ink) 17%,transparent);width:100%;overflow:hidden}.story-progress>div{height:100%;background:var(--accent);width:0;transition:width .16s linear}.thumb-head{max-width:1390px;margin:40px auto 15px;display:flex;justify-content:space-between;color:color-mix(in srgb,var(--ink) 74%,transparent);font-size:13px}.thumb-rail{max-width:1390px;display:flex;overflow-x:auto;gap:13px;scrollbar-width:thin;margin:0 auto;padding-bottom:13px;scroll-snap-type:x proximity;scroll-behavior:smooth}.thumb-button{flex:none;min-width:190px;width:220px;text-align:left;padding:0 0 11px;cursor:pointer;background:none;border:0;border-bottom:1px solid color-mix(in srgb,var(--ink) 19%,transparent);opacity:.61;scroll-snap-align:start;color:var(--ink);transition:opacity .3s,transform .45s var(--ease),border-color .3s}.thumb-button:hover,.thumb-button.active{opacity:1;border-color:var(--accent)}.thumb-button:hover{transform:translateY(-3px)}.thumb-button img{width:100%;height:123px;object-fit:cover;filter:saturate(.8);transition:filter .4s}.thumb-button.active img,.thumb-button:hover img{filter:saturate(1)}.thumb-label{display:flex;gap:10px;align-items:baseline;margin-top:12px}.thumb-label .num{color:var(--accent);font-size:12px;font-family:var(--font-ru)}.thumb-label .title{font-size:13px;line-height:1.5}.work-literary-note{max-width:1390px;margin:75px auto 0;border-top:1px solid color-mix(in srgb,var(--ink) 20%,transparent);padding:34px 0 10px;display:grid;grid-template-columns:70px minmax(280px,.9fr) minmax(350px,1.2fr);gap:25px;align-items:center}.literary-index{font-size:36px;color:var(--accent);font-family:var(--font-ru)}.work-literary-note .eyebrow{color:var(--accent)}.work-literary-note h3{font-size:25px;font-weight:400;letter-spacing:.06em;margin:10px 0 6px}.work-literary-note .ru{font-size:16px;color:var(--accent)}.work-literary-note>p{font-size:15px;line-height:1.95;color:color-mix(in srgb,var(--ink) 76%,transparent);max-width:610px}
+.effect{position:absolute;inset:-25%;pointer-events:none;z-index:3;opacity:0;overflow:hidden;transition:opacity .7s}.effect::before,.effect::after{content:'';position:absolute;inset:0;pointer-events:none}.fx-glow .effect-one{opacity:.7}.fx-glow .effect-one:before{background:radial-gradient(circle at 30% 55%,#fff0bb3d,transparent 33%),radial-gradient(circle at 71% 29%,#fff6d735,transparent 18%);mix-blend-mode:screen;animation:glimmer 8s ease-in-out infinite alternate}.fx-sparkle .effect-two{opacity:.52}.fx-sparkle .effect-two:before{background-image:radial-gradient(circle,#ffebcbaa 0 1.5px,transparent 1.9px);background-size:109px 109px;animation:drift 20s linear infinite}.fx-fog .effect-two{opacity:.5}.fx-fog .effect-two:after{background:radial-gradient(ellipse at 20% 75%,#f1eee59c,transparent 30%),radial-gradient(ellipse at 70% 79%,#b0c3ce83,transparent 36%);filter:blur(22px);animation:fogFlow 18s ease-in-out infinite alternate}.fx-snow .effect-one{opacity:.7}.fx-snow .effect-one:before,.fx-snow .effect-one:after{background-image:radial-gradient(circle,#ffffffc9 0 1.3px,transparent 1.9px),radial-gradient(circle,#ffffff8c 0 2px,transparent 2.9px);background-size:125px 125px,205px 205px;background-position:9px 12px,40px 50px;animation:snowFall 14s linear infinite}.fx-snow .effect-one:after{animation-duration:24s;opacity:.55}.fx-rain .effect-one{opacity:.42}.fx-rain .effect-one:before{background:repeating-linear-gradient(108deg,transparent 0px 16px,#e2e6ef6b 17px 18px,transparent 19px 38px);animation:rainFall 1.5s linear infinite}.fx-embers .effect-two{opacity:.67}.fx-embers .effect-two:before{background-image:radial-gradient(circle,#ffc678ee 0 1.5px,transparent 2px),radial-gradient(circle,#ee874ba8 0 1px,transparent 2px);background-size:155px 155px,221px 221px;animation:emberRise 15s linear infinite}.fx-smoke .effect-one{opacity:.5}.fx-smoke .effect-one:after{background:radial-gradient(circle at 30% 80%,#3f3a3b93,transparent 25%),radial-gradient(circle at 70% 72%,#50484798,transparent 28%);filter:blur(17px);animation:smokeRise 15s ease-in-out infinite alternate}.fx-petals .effect-one{opacity:.7}.fx-petals .effect-one:before{background-image:radial-gradient(ellipse,#fff2e6e3 0 2px,transparent 3.2px),radial-gradient(ellipse,#f1dcd28f 0 2.7px,transparent 3.5px);background-size:126px 190px,204px 233px;animation:petalFall 21s linear infinite}.fx-wind .effect-two{opacity:.33}.fx-wind .effect-two:before{background:linear-gradient(125deg,transparent 24%,#f2e6d03a 35%,transparent 42%);animation:wind 14s ease-in-out infinite alternate}@keyframes heroDrift{from{transform:scale(1.07) translateX(0)}to{transform:scale(1.14) translateX(-1%)}}@keyframes glimmer{to{transform:translate(2%,-1%) scale(1.04);opacity:.8}}@keyframes drift{to{transform:translate(-3%,5%)}}@keyframes fogFlow{to{transform:translate(6%,-4%) scale(1.1)}}@keyframes snowFall{to{transform:translate(-2%,20%)}}@keyframes rainFall{to{transform:translate(-5%,9%)}}@keyframes emberRise{to{transform:translate(4%,-18%)}}@keyframes smokeRise{to{transform:translate(-3%,-12%) scale(1.12)}}@keyframes petalFall{to{transform:translate(7%,22%) rotate(4deg)}}@keyframes wind{to{transform:translate(7%,-3%)}}
+.map-section{background:#f4f0e8}.map-composition{max-width:1390px;margin:0 auto;display:grid;grid-template-columns:1.3fr .7fr;min-height:510px;border-top:1px solid #d5cdbf;border-bottom:1px solid #d5cdbf}.map-visual{position:relative;min-height:550px;overflow:hidden;background:#eee8db;isolation:isolate}.map-pattern{position:absolute;inset:0;background:radial-gradient(ellipse at 56% 53%,#e0d5bf 0 0.1%,transparent 57%),repeating-linear-gradient(24deg,transparent 0 70px,#8d886b14 71px 72px,transparent 73px 145px),repeating-linear-gradient(112deg,transparent 0 95px,#8d886b12 96px 97px,transparent 98px 176px)}.map-orbit{position:absolute;border:1px solid #a79c8673;border-radius:50%;transform:rotate(-25deg)}.orbit-one{width:620px;height:330px;top:70px;left:5%}.orbit-two{width:410px;height:220px;top:142px;left:20%;transform:rotate(22deg)}.map-compass{position:absolute;top:30px;right:35px;font-size:12px;color:#978f80;letter-spacing:.2em}.map-centre{position:absolute;top:42%;left:45%;text-align:center;color:#b5a484;transform:translate(-50%,-50%);display:flex;flex-direction:column;gap:7px}.map-monogram{font-size:42px;letter-spacing:.22em;font-weight:400}.map-centre span:last-child{font-size:11px;letter-spacing:.28em}.map-point{position:absolute;z-index:3;border:0;background:transparent;display:flex;align-items:center;gap:9px;cursor:pointer;font-size:13px;color:#574637;white-space:nowrap;padding:10px;transition:transform .4s var(--ease)}.map-point:hover{transform:translateY(-6px)}.point-ring{position:relative;width:12px;height:12px;background:#ad8662;border:3px solid #eee8db;border-radius:50%;box-shadow:0 0 0 1px #ad8662}.point-ring:after{content:'';position:absolute;inset:-9px;border:1px solid #a5876155;border-radius:50%;animation:pulse 3.2s infinite}.pos-1{top:27%;left:9%}.pos-2{top:52%;left:60%}.pos-3{top:72%;left:32%}.pos-4{top:78%;left:67%}@keyframes pulse{50%{transform:scale(1.6);opacity:.15}}.map-essay{padding:clamp(35px,5vw,85px);background:#faf7f0;display:flex;justify-content:center;flex-direction:column}.map-essay h3{font-size:clamp(24px,2.35vw,35px);line-height:1.5;font-weight:400;margin:25px 0}.map-essay>p:not(.eyebrow){font-size:15px;color:#81766b;line-height:2.05}.map-essay .ru{font-size:16px;line-height:1.6;margin:6px 0 30px}.map-disclaimer{font-size:11px;color:#a0988d}
+.closing-section{background:#303431;color:#f6f1e7;text-align:center;min-height:455px;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:80px 24px}.closing-section .ornate{font-size:33px;color:#bda986}.closing-section>.ru{font-size:16px;opacity:.65;margin:21px 0 10px}.closing-section h2{font-size:clamp(35px,4vw,61px);font-weight:400;letter-spacing:.1em;margin:18px 0}.closing-section>p:not(.ru){color:#cdc6bc;font-size:15px;line-height:2;margin:0 0 35px}.quiet-link.light{color:#eae3d9;border-color:#a39986}.quiet-link.light .round-arrow{border-color:#ada48f}.site-footer{min-height:90px;display:flex;gap:20px;justify-content:space-between;align-items:center;padding:20px clamp(24px,6vw,100px);background:#242824;color:#aaaca3;font-size:11px}.site-footer .ru{font-size:10px;letter-spacing:.2em}
+.lightbox{position:fixed;inset:0;background:#171715f3;z-index:200;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:38px 90px;opacity:0;pointer-events:none;transition:opacity .4s ease}.lightbox.open{opacity:1;pointer-events:auto}.lightbox img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;box-shadow:0 17px 70px #0009}.lightbox-caption{font-size:15px;color:#e7dfd4;text-align:center;padding-top:20px}.lightbox-close{position:absolute;top:22px;right:38px;border:0;background:none;color:#f8f3e7;font-size:43px;cursor:pointer}.lightbox-nav{position:absolute;left:0;right:0;top:50%;display:flex;justify-content:space-between;padding:0 24px;pointer-events:none}.lightbox-nav button{border:1px solid #aaa6;background:#24231fbb;color:#f9f3e9;border-radius:50%;font-size:20px;width:41px;height:41px;pointer-events:auto;cursor:pointer}.reveal{opacity:0;transform:translateY(23px);filter:blur(5px);transition:opacity 1s var(--ease),transform 1s var(--ease),filter 1s var(--ease)}.reveal.visible{opacity:1;transform:translateY(0);filter:blur(0)}.hero .reveal:nth-child(2){transition-delay:.08s}.hero .reveal:nth-child(3){transition-delay:.15s}
+@media(max-width:1100px){.site-header{gap:18px}.brand-copy{font-size:15px}.main-nav{gap:15px}.hero-paper{padding-left:5.6vw;min-width:460px}.hero-title{font-size:clamp(42px,4.5vw,65px)}.artwork-shell{grid-template-columns:1.2fr .8fr}.stage-media{min-height:500px}.stage-note{padding:31px}.map-composition{grid-template-columns:1.05fr .95fr}}
+@media(max-width:830px){.site-header{min-height:70px;padding:0 18px}.brand-copy{font-size:14px}.main-nav{position:absolute;top:70px;left:0;right:0;background:#f9f6f0;display:none;flex-direction:column;align-items:stretch;gap:0;padding:12px 24px 23px;border-bottom:1px solid #ddd2c4}.main-nav.open{display:flex}.main-nav a{font-size:15px;padding:12px 0}.menu-toggle{display:flex}.lang-toggle{padding-left:11px}.hero{padding-top:70px;height:auto;min-height:750px}.hero-paint{inset:70px 0 0 22%}.hero-paper{width:63%;min-width:0;padding:80px 30px 23px;background:linear-gradient(90deg,#f4efe6 0%,#f4efe6f7 65%,#f4efe6ab 90%,transparent)}.hero-title{font-size:48px}.hero-intro{font-size:15px}.cover-outer{min-height:585px}.cover-card{width:280px;height:380px}.artwork-shell{grid-template-columns:1fr}.stage-media{min-height:520px}.stage-note{min-height:400px}.stage-copy{min-height:200px}.map-composition{grid-template-columns:1fr}.map-visual{min-height:430px}.map-essay{padding:48px}.work-literary-note{grid-template-columns:50px 1fr}.work-literary-note>p{grid-column:2}.author-intro{grid-template-columns:1fr;gap:12px}.author-description{padding-top:0}.section-padding{padding:78px 30px}}
+@media(max-width:580px){.brand-mark{width:35px;height:35px;font-size:27px}.brand-copy{font-size:13px}.brand-copy small{font-size:8px}.hero{min-height:770px;height:90svh;max-height:950px}.hero-paint{inset:70px 0 0 0}.hero-paint img{object-position:55% 50%;filter:brightness(.7) saturate(.88)}.hero-photo-glaze{background:linear-gradient(0deg,#ede7ddc7 0,transparent 35%,#e2d6c741 100%)}.hero-paper{width:100%;padding:60px 25px 26px;justify-content:space-between;background:linear-gradient(90deg,#f4efe5ef, #f4efe5db 67%,#f4efe575)}.hero-paper-top{align-items:flex-start}.hero-copy{padding:50px 0}.hero-title{font-size:clamp(37px,9.4vw,52px);white-space:normal}.hero-ru{font-size:17px}.hero-footer{gap:9px;flex-wrap:wrap}.hero-side-caption{display:none}.section-padding{padding:75px 17px}.section-heading h2{font-size:34px}.cover-outer{margin:0 -17px;min-height:535px}.cover-stage{height:434px}.cover-card{width:237px;height:344px;top:39px}.cover-caption strong{font-size:19px}.cover-controls{margin-top:0}.drag-hint{font-size:11px;padding:0 20px}.chapter-brow{margin-bottom:40px}.author-name h2{font-size:45px}.author-description .statement{font-size:22px}.work-tabs{flex-wrap:nowrap;overflow-x:auto;padding-bottom:18px;scrollbar-width:thin}.work-tab{flex:none;padding:10px 12px;font-size:13px}.stage-media{min-height:365px}.stage-note{padding:29px;min-height:390px}.stage-copy h3{font-size:28px}.stage-desc{font-size:15px}.thumb-button{width:175px;min-width:175px}.thumb-button img{height:104px}.thumb-label .title{font-size:12px}.work-literary-note{margin-top:55px;grid-template-columns:30px 1fr;gap:12px}.work-literary-note h3{font-size:23px}.work-literary-note>p{font-size:14px}.map-visual{min-height:390px}.map-orbit.orbit-one{left:-70%;top:85px}.map-orbit.orbit-two{left:-25%}.map-centre{left:50%;top:44%}.map-monogram{font-size:34px}.map-point{font-size:11px}.pos-1{top:24%;left:5%}.pos-2{top:55%;left:55%}.pos-3{top:72%;left:5%}.pos-4{top:82%;left:50%}.map-essay{padding:35px 25px}.site-footer{flex-direction:column;text-align:center;gap:10px}.lightbox{padding:40px 13px}.lightbox-nav{padding:0 6px}.lightbox-close{right:15px;top:8px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1!important;transform:none!important;filter:none!important}.effect{display:none!important}.hero-paint img{transform:none!important}.stage-image.active{transform:none!important}}
+
+
+/* Motion-inspired, dependency-free shared selection and tactile drag preview. */
+.work-tabs{position:relative;isolation:isolate}
+.work-tab{position:relative;z-index:1;white-space:nowrap}
+.work-tab.active{background:transparent;border-color:transparent}
+.work-tab-indicator{position:absolute;top:0;left:0;z-index:0;opacity:0;border:1px solid color-mix(in srgb,var(--ink) 18%,transparent);background:color-mix(in srgb,var(--ink) 8%,transparent);pointer-events:none;transition:transform .65s cubic-bezier(.18,.9,.22,1),width .65s cubic-bezier(.18,.9,.22,1),height .45s cubic-bezier(.18,.9,.22,1),opacity .25s ease}
+.cover-stage{cursor:grab}
+.cover-stage.is-dragging{cursor:grabbing;user-select:none}
+.cover-stage.is-dragging .cover-card{transition:none!important;cursor:grabbing}
+.cover-card{transition:transform .86s cubic-bezier(.16,1,.3,1),opacity .7s ease,filter .7s ease,box-shadow .7s ease}
+.work-tab:focus-visible,.cover-card:focus-visible,.thumb-button:focus-visible,.circle-control:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(prefers-reduced-motion:reduce){.work-tab-indicator{transition:none!important}.cover-stage.is-dragging .cover-card{transition:none!important}}
+
+/* Author palette and frosted surfaces; existing layout and motion retained. */
+@property --tone{syntax:'<color>';inherits:true;initial-value:#f1e8d9}
+@property --ink{syntax:'<color>';inherits:true;initial-value:#3f342c}
+@property --accent{syntax:'<color>';inherits:true;initial-value:#976b35}
+:root{transition:--tone 1.1s ease,--ink 1.1s ease,--accent 1.1s ease;--glass:color-mix(in srgb,var(--tone) 78%,transparent);--glass-edge:color-mix(in srgb,var(--ink) 16%,transparent)}
+body{background:var(--tone);color:var(--ink);transition:background-color 1.1s,color 1.1s}
+.authors-section,.map-section,.hero{background:var(--tone);color:var(--ink)}
+.site-header,.site-header.scrolled{background:var(--glass);border-color:var(--glass-edge);color:var(--ink);backdrop-filter:blur(24px) saturate(125%);-webkit-backdrop-filter:blur(24px) saturate(125%);box-shadow:inset 0 1px 0 #ffffff26,0 8px 32px #00000008}
+.brand-mark,.main-nav a,.lang-toggle,.quiet-link,.count-readout,.map-point{color:var(--ink);border-color:var(--glass-edge)}
+.brand-copy small,.hero-edition,.hero-ru,.hero-intro,.hero-footer,.section-subtitle,.drag-hint,.cover-caption span,.cover-caption em,.map-essay>p:not(.eyebrow),.map-disclaimer,.map-compass{color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.main-nav a:after,.menu-toggle span{background:var(--accent)}
+.hero-paper{background:linear-gradient(95deg,var(--tone) 0%,color-mix(in srgb,var(--tone) 97%,transparent) 75%,color-mix(in srgb,var(--tone) 88%,transparent) 91%,transparent 100%)}
+.hero-photo-glaze{background:linear-gradient(90deg,color-mix(in srgb,var(--tone) 85%,transparent),transparent 21%),linear-gradient(0deg,#29231d52,transparent 45%)}
+.cover-outer{background:color-mix(in srgb,var(--tone) 90%,var(--ink))}
+.cover-glaze{background:linear-gradient(90deg,color-mix(in srgb,var(--tone) 72%,transparent),color-mix(in srgb,var(--tone) 58%,transparent) 48%,color-mix(in srgb,var(--tone) 70%,transparent)),linear-gradient(0deg,var(--tone) 5%,transparent 58%)}
+.cover-card{background:var(--glass);color:var(--ink);border-color:var(--glass-edge)}
+.cover-image img{object-position:center 25%}
+.cover-caption{background:linear-gradient(125deg,#ffffff12,transparent 50%,color-mix(in srgb,var(--accent) 12%,transparent)),var(--glass);border-color:var(--glass-edge);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.circle-control,.stage-controls button,.work-tab-indicator{color:var(--ink);background:linear-gradient(135deg,#ffffff16,transparent 65%),var(--glass);border-color:var(--glass-edge);backdrop-filter:blur(16px) saturate(120%);-webkit-backdrop-filter:blur(16px) saturate(120%);box-shadow:inset 0 1px 0 #ffffff30,0 4px 16px #00000008}
+.circle-control:hover,.stage-controls button:hover{background:color-mix(in srgb,var(--tone) 88%,var(--accent))}
+.work-tab-indicator{border-radius:14px}
+.artwork-shell,.stage-note{background:color-mix(in srgb,var(--tone) 94%,var(--ink));color:var(--ink)}
+.map-visual{background:color-mix(in srgb,var(--tone) 94%,var(--accent))}
+.map-essay{background:color-mix(in srgb,var(--tone) 96%,var(--ink))}
+.map-composition{border-color:var(--glass-edge)}
+.map-centre{color:var(--accent)}
+.closing-section{background:color-mix(in srgb,var(--tone) 25%,#20241f);color:#f6f1e7}
+.site-footer{background:color-mix(in srgb,var(--tone) 15%,#171b17)}
+@media(max-width:830px){.main-nav{background:var(--glass);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-color:var(--glass-edge)}.hero-paper{background:linear-gradient(90deg,var(--tone),color-mix(in srgb,var(--tone) 97%,transparent) 65%,color-mix(in srgb,var(--tone) 67%,transparent) 90%,transparent)}}
+@media(max-width:580px){.hero-paper{background:linear-gradient(90deg,color-mix(in srgb,var(--tone) 94%,transparent),color-mix(in srgb,var(--tone) 86%,transparent) 67%,color-mix(in srgb,var(--tone) 58%,transparent))}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.site-header,.site-header.scrolled,.cover-caption,.circle-control,.stage-controls button,.main-nav{background:var(--tone)}}
+@media(prefers-reduced-motion:reduce){:root{transition:none}}
+
+/* Revision 2: continuous framed arc, quiet sans typography, full-width mist. */
+@font-face{font-family:'Source Han Sans';src:local('Source Han Sans SC'),local('思源黑体'),url('fonts/SourceHanSansSC-VF.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Franie';src:local('Franie'),local('Franie Regular');font-weight:400;font-display:swap}
+:root{--font-zh:'Source Han Sans','PingFang SC','Noto Sans CJK SC',sans-serif;--font-ru:'Franie','Source Han Sans',Arial,sans-serif}
+body{letter-spacing:0;font-weight:400;line-height:1.6}
+.ru{letter-spacing:0!important}
+h1,h2,h3,.brand-copy,.cover-caption strong{letter-spacing:-.025em!important;font-weight:550}
+.eyebrow,.line-label,.chapter-brow,.drag-hint,.hero-edition{letter-spacing:.025em;font-weight:450}
+.main-nav a,.lang-toggle,.hero-intro,.stage-desc,.thumb-label .title{letter-spacing:0}
+.hero{height:auto;min-height:min(900px,100svh);padding:110px clamp(20px,4vw,64px) 32px;align-items:stretch;background:var(--tone)}
+.hero-paint{inset:0;z-index:-2}
+.hero-paint img{object-position:center;filter:saturate(.7) brightness(.75);transform:scale(1.04)}
+.hero-photo-glaze{background:linear-gradient(125deg,#bfa9ac32,#d4bba81a 45%,#6f747a55)}
+.hero-paper{width:100%;min-width:0;min-height:670px;max-width:1600px;margin:0 auto;padding:clamp(28px,4vw,60px);border-radius:36px;border:1px solid #ffffff50;background:radial-gradient(ellipse at 5% 10%,#d9b7a447,transparent 60%),radial-gradient(ellipse at 96% 95%,#a5aabd40,transparent 55%),#29252532;backdrop-filter:blur(22px) saturate(90%);-webkit-backdrop-filter:blur(22px) saturate(90%);box-shadow:inset 0 1px 0 #ffffff55,0 18px 55px #12121215;color:#fff9ed}
+.hero-paper-top,.hero-footer{width:100%;color:#fff9edc9}
+.hero-copy{max-width:850px;margin:30px 0;padding:0}
+.hero-title{font-size:clamp(42px,6vw,88px);line-height:1.12;font-weight:600;color:#fff9e8;white-space:normal}
+.hero-title span:last-child{color:#eee6c9}
+.hero .eyebrow,.hero .line-label,.hero-edition,.hero-ru,.hero-intro,.hero-footer{color:#fff9e5d9}
+.hero-ru{font-size:clamp(18px,2vw,27px);line-height:1.35;margin:22px 0}
+.hero-intro{font-size:17px;line-height:1.8;max-width:530px;margin:0 0 30px}
+.hero .small-rule{background:#fff9e570;width:56px}
+.hero .quiet-link{background:#fff9ed;color:#302c29;border:0;border-radius:100px;padding:13px 22px;gap:40px;font-weight:500}
+.hero .quiet-link .round-arrow{border:0}
+.hero-side-caption{display:none}
+.hero-footer{border-color:#fff9ed38;font-size:11px;flex-wrap:wrap}
+.artwork-shell{display:flex;flex-direction:column;background:transparent;box-shadow:none;max-width:1500px}
+.stage-media{height:clamp(340px,49vw,650px);min-height:0;background:radial-gradient(ellipse at 50% 88%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 65%);overflow:hidden;touch-action:pan-y}
+.arc-stage{position:absolute;inset:0;perspective:1600px;transform-style:preserve-3d}
+.arc-frame{position:absolute;top:45%;left:50%;width:66%;max-width:820px;aspect-ratio:1.5;padding:9px;border:1px solid color-mix(in srgb,var(--accent) 50%,var(--tone));background:linear-gradient(135deg,color-mix(in srgb,var(--tone) 65%,var(--accent)),var(--tone));box-shadow:0 24px 38px #00000020,inset 0 0 0 2px #ffffff22;cursor:pointer;backface-visibility:hidden;will-change:transform;transform-origin:center;outline-offset:6px}
+.arc-frame img{width:100%;height:100%;object-fit:contain;background:#201d1b;pointer-events:none}
+.arc-frame>span{position:absolute;left:21px;bottom:19px;background:#17141166;border:1px solid #fff5;color:#fff;border-radius:30px;padding:3px 10px;font:11px var(--font-ru)}
+.stage-media .stage-texture,.stage-media .effect{display:none}
+.frame-number{bottom:12px;left:50%;transform:translateX(-50%);color:var(--ink);background:none;text-shadow:none}
+.expand-image{bottom:12px;right:20px;top:auto;color:var(--ink);border-color:var(--glass-edge);background:var(--glass);border-radius:50%}
+.stage-note{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:36px;min-height:0;padding:30px 36px;border:1px solid var(--glass-edge);border-radius:26px;background:linear-gradient(120deg,#ffffff0d,transparent),var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+.stage-note-top{grid-column:1/-1;margin-bottom:14px}.stage-note-top .tiny-diamond{display:none}
+.stage-copy{min-height:0;max-width:850px}.stage-copy h3{font-size:clamp(26px,3vw,42px);line-height:1.25;margin:10px 0 12px;font-weight:550}
+.stage-ru{font-size:17px;line-height:1.5}.stage-desc{font-size:15px;line-height:1.8;margin:16px 0 0}.note-rule{display:none}
+.stage-actions{align-self:end;margin:0;white-space:nowrap}.story-progress{grid-column:1/-1;margin-top:24px}
+.ghost-btn{border-radius:50%;background:var(--glass);backdrop-filter:blur(12px)}
+@media(max-width:830px){.hero{padding:92px 20px 20px;min-height:780px}.hero-paper{padding:30px;min-height:660px}.hero-copy{max-width:650px}.stage-note{grid-template-columns:1fr;padding:26px}.stage-actions{margin-top:24px}.arc-frame{width:74%;padding:6px}.stage-media{height:460px}.brand-copy{letter-spacing:0!important}}
+@media(max-width:580px){.hero{padding:86px 14px 14px;min-height:760px;height:auto;max-height:none}.hero-paper{padding:25px 22px;min-height:660px;border-radius:28px}.hero-copy{margin:28px 0}.hero-title{font-size:clamp(34px,9vw,46px)}.hero-intro{font-size:15px}.hero-ru{font-size:18px}.hero-footer{font-size:10px;gap:10px}.hero-paper-top{font-size:10px}.hero-edition{font-size:9px}.stage-media{height:310px;margin:0 -17px}.arc-frame{width:78%;padding:5px}.stage-note{padding:22px;border-radius:22px}.stage-copy h3{font-size:26px}.stage-actions{gap:10px}.brand-copy{font-size:12px}.cover-caption strong{font-size:19px}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.hero-paper{background:#403936eb}}
+@media(prefers-reduced-motion:reduce){.arc-frame{will-change:auto}.hero-paint img{animation:none}}
+</style>
+</head>
+<body>
+<div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"></div>
+<header class="site-header" id="siteHeader">
+  <a href="#home" class="brand" aria-label="回到首页"><span class="brand-mark">Р</span><span class="brand-copy">俄罗斯文学的流动画廊<small class="ru">Галерея русской литературы</small></span></a>
+  <nav class="main-nav" aria-label="网站导航"><a href="#home" data-t="navHome">首页</a><a href="#authors" data-t="navAuthors">作家画廊</a><a href="#works" data-t="navWorks">作品展厅</a><a href="#map" data-t="navMap">文学地图</a></nav>
+  <div class="header-actions"><button class="lang-toggle" id="langToggle" type="button" aria-label="切换语言"><span id="langText">Рус</span><span class="lang-arrow">↗</span></button><button class="menu-toggle" id="mobileMenuToggle" aria-label="打开导航菜单" aria-expanded="false" type="button"><span></span><span></span></button></div>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div class="hero-paint"><img src="images/art/p01.webp" alt="俄罗斯贵族时代的彼得堡舞厅油画" fetchpriority="high"/><div class="hero-photo-glaze"></div></div>
+    <div class="hero-paper"><div class="hero-paper-top reveal"><span class="line-label">1799 — 1904</span><span class="hero-edition ru">ГАЛЕРЕЯ • 01—05</span></div>
+      <div class="hero-copy"><p class="eyebrow reveal" data-t="heroEyebrow">一场穿越俄罗斯文学黄金时代的旅行</p><h1 class="hero-title reveal"><span data-t="heroTitleLine1">俄罗斯文学的</span><span data-t="heroTitleLine2">流动画廊</span></h1><p class="hero-ru ru reveal">Галерея русской литературы</p><div class="small-rule reveal"></div><p class="hero-intro reveal" data-t="heroIntro">让文字成为画，让时间在画框之间缓缓流动。从普希金的舞会，到契诃夫最后的樱桃园。</p><a class="quiet-link magnetic" href="#authors"><span data-t="enterGallery">进入画廊</span><span class="round-arrow">↗</span></a></div>
+      <div class="hero-footer"><span class="ru">Путешествие сквозь эпоху</span><span data-t="heroFoot">五位作家 · 十四部作品 · 四十七幅画</span></div>
+    </div>
+    <div class="hero-side-caption ru">ИСКУССТВО · ВРЕМЯ · ЛИТЕРАТУРА</div>
+  </section>
+  <section id="authors" class="authors-section section-padding">
+    <div class="section-heading reveal"><p class="eyebrow"><span class="ornament">✦</span> <span data-t="authorsEyebrow">第一展厅 · 文学群像</span></p><h2 data-t="authorsHeading">五位作家，五个世界</h2><p class="ru section-subtitle">Пять писателей. Пять миров.</p></div>
+    <div class="cover-outer" id="coverOuter">
+      <div class="cover-backdrop" id="coverBackdrop"></div><div class="cover-glaze"></div>
+      <div class="cover-stage" id="coverStage" aria-label="作家 Cover Flow 画廊" tabindex="0"></div>
+      <div class="cover-controls"><button type="button" class="circle-control" id="authorPrev" aria-label="上一位作家">←</button><span id="authorCounter" class="ru count-readout">01 / 05</span><button type="button" class="circle-control" id="authorNext" aria-label="下一位作家">→</button></div>
+      <p class="drag-hint" data-t="dragHint">拖动、点击或使用方向键，进入另一位作家的世界</p>
+    </div>
+  </section>
+  <section id="works" class="works-section section-padding">
+    <div class="chapter-brow"><span data-t="chapterEyebrow">第二展厅 · 作品与情节</span><span class="ru" id="chapterIndex">01 / 05</span></div>
+    <div class="author-intro reveal" id="authorIntro"></div>
+    <div class="work-tabs" id="workTabs" role="tablist" aria-label="选择作品"></div>
+    <div class="artwork-shell reveal" id="artworkShell">
+      <div class="stage-media" id="stageMedia">
+        <div class="arc-stage" id="arcStage" role="region" aria-roledescription="carousel" aria-label="作品立体弧形画廊" tabindex="0"></div>
+        <div class="stage-texture"></div><div class="effect effect-one" aria-hidden="true"></div><div class="effect effect-two" aria-hidden="true"></div>
+        <span class="frame-number ru" id="frameNumber">01 / 05</span>
+        <button class="expand-image" id="expandImage" type="button" aria-label="放大当前油画"><span>↗</span></button>
+      </div>
+      <div class="stage-note" id="stageNote">
+        <div class="stage-note-top"><p class="eyebrow"><span data-t="paintingLabel">馆藏画作</span> <span class="ru" id="paintSerial">01 — 01</span></p><span class="tiny-diamond">◇</span></div>
+        <div class="stage-copy" id="stageCopy"><p class="note-overline" id="stageWork"></p><h3 id="stageTitle"></h3><p class="ru stage-ru" id="stageTitleRu"></p><div class="note-rule"></div><p class="stage-desc" id="stageDesc"></p></div>
+        <div class="stage-actions"><button class="ghost-btn" id="stagePrev" type="button" aria-label="上一幅画">←</button><button class="ghost-btn" id="stageNext" type="button" aria-label="下一幅画">→</button><div class="divider-vertical"></div><button class="play-toggle" id="playToggle" type="button" aria-label="暂停自动播放"><span id="playIcon">Ⅱ</span><span id="playLabel">暂停流动</span></button></div>
+        <div class="story-progress"><div id="storyProgressBar"></div></div>
+      </div>
+    </div>
+    <div class="thumb-head"><span data-t="thumbHead">沿着原著情节，缓慢翻阅</span><span class="ru" id="thumbCount">01 — 05</span></div>
+    <div id="thumbs" class="thumb-rail" aria-label="作品情节缩略图"></div>
+    <div class="work-literary-note reveal"><div class="literary-index">✧</div><div><span class="eyebrow" data-t="literaryConcept">作品的文学核心</span><h3 id="workIdea"></h3><p class="ru" id="workIdeaRu"></p></div><p id="workOverview"></p></div>
+  </section>
+  <section id="map" class="map-section section-padding">
+    <div class="section-heading reveal"><p class="eyebrow"><span class="ornament">✦</span> <span data-t="mapEyebrow">第三展厅 · 文学地理</span></p><h2 data-t="mapHeading">文学的地理与记忆</h2><p class="ru section-subtitle">География русской литературы</p></div>
+    <div class="map-composition reveal"><div class="map-visual"><div class="map-pattern" aria-hidden="true"></div><div class="map-orbit orbit-one"></div><div class="map-orbit orbit-two"></div><span class="map-compass ru">С Е В Е Р</span><div class="map-centre"><span class="map-monogram ru">РОССИЯ</span><span data-t="mapCentre">文学中的俄罗斯</span></div><div class="map-route"></div><button type="button" class="map-point pos-1" data-artist="pushkin"><span class="point-ring"></span><span data-t="mapStPete">圣彼得堡</span></button><button type="button" class="map-point pos-2" data-artist="gogol"><span class="point-ring"></span><span data-t="mapMoscow">莫斯科</span></button><button type="button" class="map-point pos-3" data-artist="tolstoy"><span class="point-ring"></span><span data-t="mapYasnaya">亚斯纳亚·波利亚纳</span></button><button type="button" class="map-point pos-4" data-artist="chekhov"><span class="point-ring"></span><span data-t="mapTaganrog">塔甘罗格</span></button></div>
+      <div class="map-essay"><p class="eyebrow" data-t="mapEssayEyebrow">从城市到庄园</p><h3 data-t="mapEssayHeading">故事发生的地方，也是文学诞生的地方。</h3><p data-t="mapEssayBody">圣彼得堡的河岸承载奥涅金和地下室人的孤独；莫斯科的舞会、战火与剧院映照人的命运；俄国乡间的庄园则收藏了关于故乡、家庭与失去的记忆。</p><p class="ru">От петербургских улиц до усадеб — пространство становится судьбой героев.</p><span class="map-disclaimer" data-t="mapDisclaimer">地理示意为艺术化排布，非精确比例地图。</span></div>
+    </div>
+  </section>
+  <section id="about" class="closing-section"><span class="ornate ru">✦</span><p class="ru">Время проходит. Истории остаются.</p><h2 data-t="closingTitle">时间流逝，故事仍在。</h2><p data-t="closingBody">一座缓缓流动的线上文学展厅。每一幅画，都是重新走近原著的一扇窗。</p><a href="#home" class="quiet-link light magnetic"><span data-t="backTop">回到起点</span><span class="round-arrow">↑</span></a></section>
+</main>
+<footer class="site-footer"><span>© 俄罗斯文学的流动画廊</span><span class="ru">ГАЛЕРЕЯ РУССКОЙ ЛИТЕРАТУРЫ</span><span data-t="footerText">文学与绘画的私人收藏</span></footer>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="查看画作大图" aria-hidden="true"><button type="button" id="lightboxClose" class="lightbox-close" aria-label="关闭大图">×</button><img id="lightboxImage" alt=""/><div class="lightbox-caption" id="lightboxCaption"></div><div class="lightbox-nav"><button id="lightboxPrev" aria-label="上一幅">←</button><button id="lightboxNext" aria-label="下一幅">→</button></div></div>
+<noscript><div style="position:fixed;inset:20%;padding:2rem;background:white;color:#333;z-index:1000;box-shadow:0 2rem 4rem #0003">画廊需要启用 JavaScript 才能切换画作。请在浏览器设置中启用 JavaScript。</div></noscript>
+<script>(()=>{
+'use strict';
+const DATA={"title":"俄罗斯文学的流动画廊","titleRu":"Галерея русской литературы","authors":[{"id":"pushkin","zh":"普希金","ru":"Александр Пушкин","dates":"1799—1837","kicker":"诗的黄金时代","kickerRu":"Золотой век поэзии","theme":"自由、命运与人的尊严","themeRu":"Свобода, судьба и достоинство","summary":"俄罗斯现代文学的奠基者，在爱情与历史的抉择中追问人的自由。","summaryRu":"Основоположник новой русской литературы исследовал свободу человека, любовь и историю.","palette":["#f1e8d9","#3f342c","#976b35"],"works":[{"id":"onegin","zh":"叶甫盖尼·奥涅金","ru":"Евгений Онегин","idea":"多余人及错失的爱情","ideaRu":"Лишний человек и упущенная любовь","overview":"奥涅金与塔季扬娜的爱情在社会规训和个人迟疑中不断错过。","overviewRu":"Любовь Онегина и Татьяны превращается в историю упущенного счастья.","scenes":[{"id":"p01","zh":"厌倦上流社会的奥涅金","ru":"Усталость Онегина от светской жизни","desc":"彼得堡舞会灯火辉煌，奥涅金却感到倦怠与空虚。","descRu":"На блестящем петербургском балу Онегин испытывает скуку и пустоту.","fx":"glow sparkle","image":"images/art/p01.webp"},{"id":"p02","zh":"塔季扬娜的爱情告白","ru":"Письмо Татьяны","desc":"夜深人静，塔季扬娜在烛光下写下勇敢而坦诚的情书。","descRu":"Ночью Татьяна пишет Онегину искреннее любовное письмо.","fx":"glow","image":"images/art/p02.webp"},{"id":"p03","zh":"决斗与连斯基之死","ru":"Дуэль и гибель Ленского","desc":"冬日决斗夺走了连斯基的生命，也改变了奥涅金的命运。","descRu":"Зимняя дуэль приводит к гибели Ленского.","fx":"snow fog","image":"images/art/p03.webp"},{"id":"p04","zh":"离去与成长","ru":"Отъезд и взросление","desc":"奥涅金远离故乡，塔季扬娜逐渐走向成熟。","descRu":"Онегин уезжает, а Татьяна взрослеет.","fx":"wind","image":"images/art/p04.webp"},{"id":"p05","zh":"命运逆转：迟来的爱情","ru":"Запоздалая любовь Онегина","desc":"多年后奥涅金爱上已婚的塔季扬娜，却无法挽回往日。","descRu":"Онегин полюбил замужнюю Татьяну, когда стало слишком поздно.","fx":"glow","image":"images/art/p05.webp"}]},{"id":"captain","zh":"上尉的女儿","ru":"Капитанская дочка","idea":"荣誉、忠诚与选择","ideaRu":"Честь, верность и выбор","overview":"普加乔夫起义中，年轻军官的成长与爱情交织。","overviewRu":"Во время восстания Пугачёва молодой офицер проходит испытания любовью и честью.","scenes":[{"id":"p06","zh":"离家：成长之旅","ru":"Отъезд из родного дома","desc":"格里尼奥夫离开家庭，前往遥远的军营。","descRu":"Гринёв покидает родной дом и отправляется на службу.","fx":"snow","image":"images/art/p06.webp"},{"id":"p07","zh":"边境堡垒里的爱情","ru":"Любовь в пограничной крепости","desc":"格里尼奥夫与玛丽娅在边境堡垒中相知相爱。","descRu":"В пограничной крепости зарождается любовь Гринёва и Маши.","fx":"snow glow","image":"images/art/p07.webp"},{"id":"p08","zh":"普加乔夫起义","ru":"Восстание Пугачёва","desc":"围城与审判逼迫格里尼奥夫在生死关头坚守荣誉。","descRu":"В ходе восстания Гринёв сохраняет верность своей чести.","fx":"embers snow","image":"images/art/p08.webp"},{"id":"p09","zh":"营救玛莎","ru":"Спасение Маши","desc":"格里尼奥夫在普加乔夫的帮助下设法解救玛莎。","descRu":"С помощью Пугачёва Гринёв спасает Машу.","fx":"glow","image":"images/art/p09.webp"},{"id":"p10","zh":"向女皇请求赦免","ru":"Просьба к императрице","desc":"玛莎恳求叶卡捷琳娜二世赦免被误解的格里尼奥夫。","descRu":"Маша просит Екатерину II помиловать Гринёва.","fx":"glow","image":"images/art/p10.webp"}]}],"cover":"images/art/portrait-pushkin.webp","count":10},{"id":"gogol","zh":"果戈里","ru":"Николай Гоголь","dates":"1809—1852","kicker":"荒诞现实的肖像","kickerRu":"Гротеск и сатира","theme":"精神僵死与荒诞世界","themeRu":"Духовное омертвение и абсурд","summary":"在彼得堡的雾气与外省地主的虚荣里，照见社会与人格的裂缝。","summaryRu":"В мире петербургских чиновников и провинциальных помещиков обнаруживается нравственная пустота.","palette":["#dce2da","#303e37","#647850"],"works":[{"id":"souls","zh":"死魂灵","ru":"Мёртвые души","idea":"精神僵死","ideaRu":"Духовное омертвение","overview":"乞乞科夫以一桩荒唐买卖，揭开外省地主阶层的精神空虚。","overviewRu":"Чичиков скупает «мёртвые души», раскрывая нравственные пороки общества.","scenes":[{"id":"g01","zh":"乞乞科夫抵达外省城","ru":"Приезд Чичикова","desc":"乞乞科夫来到省城，开始筹划自己的买卖。","descRu":"Чичиков приезжает в губернский город.","fx":"fog","image":"images/art/g01.webp"},{"id":"g02","zh":"买卖「死魂灵」","ru":"Покупка «мёртвых душ»","desc":"账本上的亡故农奴成为可以讨价还价的商品。","descRu":"Чичиков торгуется с помещиками о несуществующих крестьянах.","fx":"glow","image":"images/art/g02.webp"},{"id":"g03","zh":"地主们的社交表演","ru":"Усадебные визиты и лицемерие","desc":"庄园里的殷勤客套，掩盖了贪婪与空洞。","descRu":"За учтивостью провинциальных помещиков скрывается пустота.","fx":"glow","image":"images/art/g03.webp"},{"id":"souls-more","zh":"没落庄园里的交易","ru":"Сделка в усадьбе","desc":"以地主庄园中的交易形象浓缩小说对贪婪的讽刺。","descRu":"Сцена сделки обобщает сатиру на корысть и нравственное оскудение.","fx":"fog","image":"images/art/souls-more.webp"}]},{"id":"petersburg","zh":"彼得堡故事集","ru":"Петербургские повести","idea":"城市中的荒诞与异化","ideaRu":"Абсурд и отчуждение в городе","overview":"按单篇展示：一篇故事一幅画，展现彼得堡的不安与荒诞。","overviewRu":"Каждая повесть представлена отдельной картиной.","scenes":[{"id":"nose","zh":"《鼻子》：喀山大教堂的荒诞","ru":"«Нос»: встреча в соборе","desc":"科瓦廖夫在喀山大教堂发现自己的鼻子竟以高级官员身份出现。","descRu":"Ковалёв видит свой нос в мундире чиновника в Казанском соборе.","fx":"glow fog","image":"images/art/nose.webp"},{"id":"g04","zh":"《外套》：夜路上的小人物","ru":"«Шинель»: маленький человек","desc":"寒冷彼得堡街头，阿卡基的孤独映照小人物的脆弱。","descRu":"Холодный Петербург подчёркивает одиночество Акакия Акакиевича.","fx":"fog snow","image":"images/art/g04.webp"}]}],"cover":"images/art/portrait-gogol.webp","count":6},{"id":"dostoevsky","zh":"陀思妥耶夫斯基","ru":"Фёдор Достоевский","dates":"1821—1881","kicker":"灵魂深处的独白","kickerRu":"Глубины человеческой души","theme":"罪责、自由意志与救赎","themeRu":"Вина, свобода воли и искупление","summary":"昏暗的彼得堡房间里，人物与自己的良心进行无法回避的对话。","summaryRu":"В тесных комнатах Петербурга герои сталкиваются с совестью, свободой и вопросом искупления.","palette":["#302725","#f1e5d2","#d4a07e"],"works":[{"id":"crime","zh":"罪与罚","ru":"Преступление и наказание","idea":"心理现实主义与救赎","ideaRu":"Психологический реализм и искупление","overview":"犯罪后的意识深渊与索尼娅的怜悯，塑造灵魂的艰难复苏。","overviewRu":"После преступления Раскольников переживает муки совести и ищет искупления.","scenes":[{"id":"d01","zh":"阴暗楼梯间的抉择","ru":"На лестнице перед преступлением","desc":"拉斯柯尔尼科夫在逼仄楼梯间走向难以挽回的行动。","descRu":"Раскольников идёт по тёмной лестнице навстречу преступлению.","fx":"fog","image":"images/art/d01.webp"},{"id":"crime-more","zh":"罪后的街巷惊惧","ru":"Тревога на улицах после преступления","desc":"犯罪之后，拉斯柯尔尼科夫在炎热的彼得堡街头陷入恐惧与孤立。","descRu":"После преступления Раскольников бродит по жаркому Петербургу в страхе и одиночестве.","fx":"glow","image":"images/art/crime-more.webp"},{"id":"d02","zh":"索尼娅与拉斯柯尔尼科夫","ru":"Соня и Раскольников","desc":"索尼娅以怜悯回应罪责，成为他精神转变的希望。","descRu":"Сочувствие Сони открывает путь к раскаянию.","fx":"glow","image":"images/art/d02.webp"}]},{"id":"underground","zh":"地下室手记","ru":"Записки из подполья","idea":"自由意志与人的非理性","ideaRu":"Свобода воли и иррациональность","overview":"地下室人自我剖析，同时又故意伤害自己与他人。","overviewRu":"Подпольный человек мучительно анализирует себя и отвергает рациональные формулы.","scenes":[{"id":"d03","zh":"地下室人的独白","ru":"Монолог подпольного человека","desc":"自我审视与自我否定在狭窄的房间中反复回响。","descRu":"В тесной комнате герой ведёт мучительный внутренний монолог.","fx":"glow","image":"images/art/d03.webp"},{"id":"d04","zh":"封闭空间中的自我审视","ru":"Самоанализ в одиночестве","desc":"象征他困于理性、怨恨和自由意志之间的内心状态。","descRu":"Камерное изображение противоречий внутреннего мира героя.","fx":"glow","image":"images/art/d04.webp"},{"id":"underground-more","zh":"旧同学聚餐中的羞辱","ru":"Унижение на обеде с бывшими товарищами","desc":"回忆中的年轻叙述者参加旧同学聚餐，却在自尊与羞辱之间越陷越深。","descRu":"Молодой рассказчик вспоминает обед с бывшими товарищами, где его самолюбие оборачивается унижением.","fx":"glow","image":"images/art/underground-more.webp"}]},{"id":"idiot","zh":"白痴","ru":"Идиот","idea":"道德理想的悲剧","ideaRu":"Трагедия нравственного идеала","overview":"梅什金的善良卷入金钱、嫉妒与伤害交织的人际世界。","overviewRu":"Доброта Мышкина сталкивается с ревностью, алчностью и гордыней.","scenes":[{"id":"idiot-more","zh":"列车上与罗戈任初遇","ru":"Первая встреча с Рогожиным в поезде","desc":"梅什金从瑞士归来，在驶往彼得堡的列车上结识罗戈任。","descRu":"Возвращаясь из Швейцарии, Мышкин знакомится с Рогожиным в поезде на Петербург.","fx":"fog","image":"images/art/idiot-more.webp"},{"id":"d05","zh":"娜斯塔西娅的焚钞之夜","ru":"Настасья бросает деньги в огонь","desc":"在生日晚宴中，娜斯塔西娅将巨款扔进火里。","descRu":"На вечере Настасья Филипповна бросает деньги в огонь.","fx":"embers glow","image":"images/art/d05.webp"}]}],"cover":"images/art/portrait-dostoevsky.webp","count":8},{"id":"tolstoy","zh":"托尔斯泰","ru":"Лев Толстой","dates":"1828—1910","kicker":"历史与生命的长河","kickerRu":"Человек и история","theme":"个人、历史与道德觉醒","themeRu":"Личность, история и нравственность","summary":"从舞厅到战场，从家庭到审判，描摹个体如何寻找生活的意义。","summaryRu":"От бала до поля битвы Толстой размышляет о семье, истории и нравственном смысле жизни.","palette":["#e5e9dc","#34413a","#647453"],"works":[{"id":"war","zh":"战争与和平","ru":"Война и мир","idea":"个人与历史","ideaRu":"Человек и история","overview":"从青春舞会、战场到亲密家庭，照见战争与平静生活的根本对照。","overviewRu":"От бала и войны к семейной жизни — история людей и эпохи.","scenes":[{"id":"war-1","zh":"娜塔莎的初次舞会","ru":"Первый бал Наташи","desc":"彼得堡舞会，安德烈公爵邀请年轻的娜塔莎共舞。","descRu":"На первом балу князь Андрей приглашает Наташу на танец.","fx":"glow sparkle","image":"images/art/war-1.webp"},{"id":"war-2","zh":"奥斯特里茨：安德烈仰望天空","ru":"Небо Аустерлица","desc":"负伤的安德烈倒在战场上，第一次感到荣誉的渺小。","descRu":"Раненый князь Андрей смотрит в бесконечное небо Аустерлица.","fx":"fog","image":"images/art/war-2.webp"},{"id":"war-3","zh":"博罗季诺战役","ru":"Бородинское сражение","desc":"炮火与硝烟中，历史进程被无数普通人的命运推动。","descRu":"В дыму Бородина историей становятся судьбы тысяч людей.","fx":"smoke embers","image":"images/art/war-3.webp"},{"id":"war-4","zh":"1812年莫斯科大火","ru":"Пожар Москвы 1812 года","desc":"皮埃尔身处燃烧的莫斯科和逃难人群之中。","descRu":"Пьер видит горящую Москву и страдания её жителей.","fx":"embers smoke","image":"images/art/war-4.webp"},{"id":"war-5","zh":"战后的家庭生活","ru":"Семейная жизнь после войны","desc":"皮埃尔与娜塔莎在家庭生活中重新发现幸福。","descRu":"Пьер и Наташа находят счастье в жизни семьи.","fx":"glow","image":"images/art/war-5.webp"}]},{"id":"anna","zh":"安娜·卡列尼娜","ru":"Анна Каренина","idea":"爱情与社会道德的冲突","ideaRu":"Любовь и общественная мораль","overview":"安娜对爱情的追寻，与婚姻规范及社会目光激烈碰撞。","overviewRu":"Любовь Анны сталкивается с правилами общества и семейным долгом.","scenes":[{"id":"anna-1","zh":"雪夜车站的相遇","ru":"Встреча на вокзале","desc":"安娜与渥伦斯基在车站相遇，命运悄然改变。","descRu":"Анна впервые встречает Вронского на вокзале.","fx":"snow fog","image":"images/art/anna-1.webp"},{"id":"anna-2","zh":"舞会中的爱情萌发","ru":"Любовь на балу","desc":"华丽舞厅里，安娜与渥伦斯基的吸引无法遮掩。","descRu":"На балу чувства Анны и Вронского становятся очевидными.","fx":"glow sparkle","image":"images/art/anna-2.webp"},{"id":"anna-3","zh":"歌剧院的流言与排斥","ru":"Осуждение в театре","desc":"安娜坐在剧院包厢，感受贵族社会严厉而虚伪的审判。","descRu":"Анна сталкивается с осуждением света в театре.","fx":"glow","image":"images/art/anna-3.webp"},{"id":"anna-4","zh":"灯下的焦虑与孤独","ru":"Тревога и одиночество","desc":"她被爱情、家庭和自身的怀疑撕扯，痛苦逐渐加深。","descRu":"Любовь, семья и ревность усиливают её душевный разлад.","fx":"glow rain","image":"images/art/anna-4.webp"},{"id":"anna-5","zh":"车站的悲剧结局","ru":"Трагедия на вокзале","desc":"安娜的绝望最终导向无法挽回的车站悲剧。","descRu":"Отчаяние Анны приводит к трагедии на железной дороге.","fx":"snow fog","image":"images/art/anna-5.webp"}]},{"id":"resurrection","zh":"复活","ru":"Воскресение","idea":"道德重生","ideaRu":"Нравственное возрождение","overview":"聂赫留朵夫面对过去的罪责，尝试通过责任与同情重新做人。","overviewRu":"Нехлюдов осознаёт свою вину и стремится к нравственному обновлению.","scenes":[{"id":"res-1","zh":"法庭重逢","ru":"Встреча в суде","desc":"聂赫留朵夫担任陪审员，认出被告玛丝洛娃。","descRu":"Присяжный Нехлюдов узнаёт подсудимую Маслову.","fx":"glow","image":"images/art/res-1.webp"},{"id":"res-2","zh":"青年时代的过错","ru":"Ошибка молодости","desc":"记忆中的两人，揭开他曾经带给卡秋莎的伤害。","descRu":"Воспоминание о причинённом Катюше зле.","fx":"glow","image":"images/art/res-2.webp"},{"id":"res-3","zh":"监狱探访与忏悔","ru":"Тюремное свидание","desc":"他来到监狱，请求宽恕并试图承担责任。","descRu":"Нехлюдов навещает Маслову и просит прощения.","fx":"glow","image":"images/art/res-3.webp"},{"id":"res-4","zh":"流放之路","ru":"Дорога в ссылку","desc":"漫长的囚犯队伍让他看见社会制度中的不公。","descRu":"Дорога в Сибирь открывает герою несправедливость общества.","fx":"fog","image":"images/art/res-4.webp"},{"id":"res-5","zh":"阅读福音书：精神复活","ru":"Чтение Евангелия","desc":"小说结尾，聂赫留朵夫通过阅读福音书重新思考人生。","descRu":"В конце романа Нехлюдов читает Евангелие и переосмысляет жизнь.","fx":"glow","image":"images/art/res-5.webp"}]}],"cover":"images/art/portrait-tolstoy.webp","count":15},{"id":"chekhov","zh":"契诃夫","ru":"Антон Чехов","dates":"1860—1904","kicker":"停顿之间的人生","kickerRu":"Жизнь между паузами","theme":"流逝的时间与未竟的愿望","themeRu":"Время и несбывшиеся мечты","summary":"沉默、错过和微小的日常动作，构成契诃夫戏剧最深的回响。","summaryRu":"Паузы, недосказанность и повседневность рождают глубокую драму чеховских героев.","palette":["#eee5e9","#4f4651","#956b82"],"works":[{"id":"cherry","zh":"樱桃园","ru":"Вишнёвый сад","idea":"时间不可逆与故园的失去","ideaRu":"Необратимость времени и утрата прошлого","overview":"一座将被拍卖的庄园，成为旧时代消逝的象征。","overviewRu":"Продажа усадьбы символизирует уходящую эпоху и невозвратимое время.","scenes":[{"id":"cherry-1","zh":"故园归来：旧育儿室","ru":"Возвращение в детскую","desc":"柳苞芙回到育儿室，窗外白色樱桃花盛开。","descRu":"Раневская возвращается в детскую и вспоминает прошлое.","fx":"petals glow","image":"images/art/cherry-1.webp"},{"id":"cherry-2","zh":"洛巴辛的改建提议","ru":"План Лопахина","desc":"洛巴辛指着桌上的土地规划图，建议将庄园土地出租。","descRu":"Лопахин предлагает сдавать землю под дачи.","fx":"glow","image":"images/art/cherry-2.webp"},{"id":"cherry-3","zh":"樱桃园易主","ru":"Лопахин покупает сад","desc":"洛巴辛激动宣布买下庄园，柳苞芙无法抑制悲痛。","descRu":"Лопахин восторженно объявляет о покупке; Раневская плачет.","fx":"glow","image":"images/art/cherry-3.webp"},{"id":"cherry-4","zh":"告别故园","ru":"Прощание с усадьбой","desc":"最后一次收拾行囊，家人告别熟悉的一切。","descRu":"Домочадцы прощаются со старым домом.","fx":"petals","image":"images/art/cherry-4.webp"},{"id":"cherry-5","zh":"被遗忘的菲尔斯","ru":"Забытый Фирс","desc":"众人离去，老仆菲尔斯独自留在空寂的屋内。","descRu":"После отъезда всех забытый Фирс остаётся в пустом доме.","fx":"fog","image":"images/art/cherry-5.webp"}]},{"id":"seagull","zh":"海鸥","ru":"Чайка","idea":"艺术理想与无法回应的爱情","ideaRu":"Искусство и неразделённая любовь","overview":"艺术理想与爱情相互伤害，隐秘的痛苦在平凡房间内爆发。","overviewRu":"Мечты об искусстве и любви оборачиваются разочарованием.","scenes":[{"id":"c01","zh":"创作受挫与情感裂痕","ru":"Творческий кризис и разрыв","desc":"特里波列夫的创作抱负与情感痛苦相互纠缠。","descRu":"Треплев страдает от неудачи в искусстве и любви.","fx":"rain glow","image":"images/art/c01.webp"}]},{"id":"vanya","zh":"万尼亚舅舅","ru":"Дядя Ваня","idea":"错过的人生与日常悲剧","ideaRu":"Упущенная жизнь и повседневная трагедия","overview":"索尼娅安慰万尼亚，生活的艰辛与温柔同在。","overviewRu":"Соня утешает Ваню, обещая надежду после долгого труда.","scenes":[{"id":"c02","zh":"索尼娅安慰万尼亚","ru":"Соня утешает дядю Ваню","desc":"末幕里万尼亚埋首于书桌，索尼娅劝他继续生活。","descRu":"В финале Соня утешает дядю Ваню и помогает вернуться к работе.","fx":"glow","image":"images/art/c02.webp"}]},{"id":"sisters","zh":"三姐妹","ru":"Три сестры","idea":"向往与停滞","ideaRu":"Мечта и жизненный застой","overview":"军队远去，三姐妹站在秋日的空旷与暮色之中。","overviewRu":"Военные уходят, а сёстры остаются с мечтой о другой жизни.","scenes":[{"id":"c03","zh":"军队远去，三姐妹守望","ru":"Отъезд военных и ожидание","desc":"军队离城，三姐妹仍在思索未来和人生的意义。","descRu":"Военные покидают город, а сёстры размышляют о будущем.","fx":"wind","image":"images/art/c03.webp"}]}],"cover":"images/art/portrait-chekhov.webp","count":8}]};
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const authors=DATA.authors;const TOTAL=authors.reduce((n,a)=>n+a.count,0);
+const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const T={
+ zh:{navHome:'首页',navAuthors:'作家画廊',navWorks:'作品展厅',navMap:'文学地图',heroEyebrow:'一场穿越俄罗斯文学黄金时代的旅行',heroTitleLine1:'俄罗斯文学的',heroTitleLine2:'流动画廊',heroIntro:'让文字成为画，让时间在画框之间缓缓流动。从普希金的舞会，到契诃夫最后的樱桃园。',enterGallery:'进入画廊',heroFoot:`五位作家 · 十四部作品 · ${TOTAL} 幅画`,authorsEyebrow:'第一展厅 · 文学群像',authorsHeading:'五位作家，五个世界',dragHint:'拖动、点击或使用方向键，进入另一位作家的世界',chapterEyebrow:'第二展厅 · 作品与情节',paintingLabel:'馆藏画作',thumbHead:'沿着原著情节，缓慢翻阅',literaryConcept:'作品的文学核心',mapEyebrow:'第三展厅 · 文学地理',mapHeading:'文学的地理与记忆',mapCentre:'文学中的俄罗斯',mapStPete:'圣彼得堡',mapMoscow:'莫斯科',mapYasnaya:'亚斯纳亚·波利亚纳',mapTaganrog:'塔甘罗格',mapEssayEyebrow:'从城市到庄园',mapEssayHeading:'故事发生的地方，也是文学诞生的地方。',mapEssayBody:'圣彼得堡的河岸承载奥涅金和地下室人的孤独；莫斯科的舞会、战火与剧院映照人的命运；俄国乡间的庄园则收藏了关于故乡、家庭与失去的记忆。',mapDisclaimer:'地理示意为艺术化排布，非精确比例地图。',closingTitle:'时间流逝，故事仍在。',closingBody:'一座缓缓流动的线上文学展厅。每一幅画，都是重新走近原著的一扇窗。',backTop:'回到起点',footerText:'文学与绘画的私人收藏',pause:'暂停流动',play:'继续流动',scene:'情节',of:'共'},
+ ru:{navHome:'Главная',navAuthors:'Писатели',navWorks:'Произведения',navMap:'Карта',heroEyebrow:'Путешествие в золотой век русской литературы',heroTitleLine1:'Галерея русской',heroTitleLine2:'литературы',heroIntro:'Когда слова становятся картинами, время течёт между рамами. От бала Пушкина до последнего вишнёвого сада Чехова.',enterGallery:'Войти в галерею',heroFoot:`Пять писателей · 14 произведений · ${TOTAL} картин`,authorsEyebrow:'Зал первый · Писатели',authorsHeading:'Пять писателей, пять миров',dragHint:'Перетаскивайте карточки или используйте стрелки',chapterEyebrow:'Зал второй · Произведения',paintingLabel:'Картина',thumbHead:'Листайте историю по картинам',literaryConcept:'Литературная идея',mapEyebrow:'Зал третий · География',mapHeading:'География и память',mapCentre:'Литературная Россия',mapStPete:'Санкт-Петербург',mapMoscow:'Москва',mapYasnaya:'Ясная Поляна',mapTaganrog:'Таганрог',mapEssayEyebrow:'От городов к усадьбам',mapEssayHeading:'Места действия становятся частью литературной судьбы.',mapEssayBody:'Петербургские улицы хранят одиночество героев, московские балы и пожары — их испытания, а дворянские усадьбы — память о семье и родине.',mapDisclaimer:'Художественная схема, не точная географическая карта.',closingTitle:'Время проходит. Истории остаются.',closingBody:'Медленно текущая литературная галерея. Каждая картина возвращает нас к книге.',backTop:'К началу',footerText:'Частная литературная коллекция',pause:'Пауза',play:'Воспроизвести',scene:'Сцена',of:'из'}
+};
+let lang='zh';let activeAuthor=0,activeWork=0,activeScene=0, currentImage=0;
+let manualPaused=false,previewHover=false,worksVisible=false,coversVisible=false,coverHover=false,coverManualUntil=0;
+let mediaLoadedToken=0,nextSceneTime=Date.now()+7400,nextCoverTime=Date.now()+10000;
+const durationScene=7400, durationCover=10000;
+const media=$('#stageMedia'), stageCopy=$('#stageCopy');
+const getAuthor=()=>authors[activeAuthor],getWork=()=>getAuthor().works[activeWork],getScene=()=>getWork().scenes[activeScene];
+const display=(o,key)=>lang==='ru'?(o[key+'Ru']||o.ru||o[key]):(o[key]||o.zh);
+const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const two=i=>String(i).padStart(2,'0');
+function translateStatic(){
+ $$('[data-t]').forEach(el=>{const value=T[lang][el.dataset.t];if(value!==undefined)el.textContent=value;});
+ document.documentElement.lang=lang==='ru'?'ru':'zh-CN';
+ document.body.classList.toggle('russian-mode',lang==='ru');
+ $('#langText').textContent=lang==='ru'?'中':'Рус';
+ $('.hero-ru').textContent=lang==='ru'?'Галерея из пяти эпох':'Галерея русской литературы';
+ $('#playLabel').textContent=manualPaused?T[lang].play:T[lang].pause;
+ if(lang==='ru') $('.hero-title').classList.add('ru');else $('.hero-title').classList.remove('ru');
+}
+function renderCover(){
+ const el=$('#coverStage');el.innerHTML=authors.map((a,i)=>`<button class="cover-card" type="button" data-index="${i}" aria-label="${escapeHTML(a.zh)}，${a.dates}"><div class="cover-image"><img src="${a.cover}" alt="${escapeHTML(a.zh)}肖像画" ${i<2?'loading="eager"':'loading="lazy"'} /></div><div class="cover-caption"><strong data-card-title="${i}">${escapeHTML(a.zh)}</strong><span class="ru">${escapeHTML(a.ru)}</span><em>${a.dates}</em></div></button>`).join('');
+ $$('button.cover-card').forEach(card=>card.addEventListener('click',()=>{
+  const idx=Number(card.dataset.index); if(idx===activeAuthor){$('#works').scrollIntoView({behavior:reduced?'auto':'smooth'});}else changeAuthor(idx,true);
+ }));updateCover();
+}
+function updateCover(){
+ const cards=$$('.cover-card');
+ cards.forEach((c,i)=>{
+ let diff=i-activeAuthor;
+ // Circular Cover Flow: two neighbors on each side while advancing chronologically.
+ const half=Math.floor(authors.length/2);
+ if(diff>half) diff-=authors.length;
+ if(diff< -half) diff+=authors.length;
+ let abs=Math.abs(diff),isActive=abs===0;
+ const x=diff*83;const z=-abs*105;const rot=-diff*27;const scale=1-abs*.092;
+ c.style.transform=`translateX(calc(-50% + ${x}%)) translateX(var(--cover-drag, 0px)) translateZ(${z}px) rotateY(${rot}deg) scale(${scale})`;
+ c.style.zIndex=String(12-abs);c.style.opacity=String(abs>2?.22:abs===2?.58:abs===1?.84:1);
+ c.style.filter=abs>1?'brightness(.87)':'none';
+ c.setAttribute('aria-current',String(isActive));c.tabIndex=isActive?0:-1;
+ const name=c.querySelector('[data-card-title]');if(name)name.textContent=lang==='ru'?authors[i].ru:authors[i].zh;
+ c.querySelector('.cover-caption .ru').textContent=lang==='ru'?authors[i].zh:authors[i].ru;
+ });
+ $('#authorCounter').textContent=`${two(activeAuthor+1)} / ${two(authors.length)}`;
+ $('#coverBackdrop').style.backgroundImage=`url('${getAuthor().cover}')`;
+}
+function writeTheme(){
+ const a=getAuthor(),[tone,ink,accent]=a.palette;
+ document.documentElement.style.setProperty('--tone',tone);
+ document.documentElement.style.setProperty('--ink',ink);
+ document.documentElement.style.setProperty('--accent',accent);
+ document.documentElement.dataset.author=a.id;
+ document.documentElement.style.setProperty('--page',tone);
+ document.documentElement.style.setProperty('--text',ink);
+ document.documentElement.style.setProperty('--paper',tone);
+ document.querySelector('meta[name="theme-color"]')?.setAttribute('content',tone);
+ $('#chapterIndex').textContent=`${two(activeAuthor+1)} / ${two(authors.length)}`;
+}
+function renderAuthorIntro(){
+ const a=getAuthor();
+ $('#authorIntro').innerHTML=`<div class="author-name"><p class="author-number ru">${two(activeAuthor+1)} — ${a.dates}</p><h2>${escapeHTML(lang==='ru'?a.ru:a.zh)}</h2><p class="ru">${escapeHTML(lang==='ru'?a.zh:a.ru)}</p><span class="dates">${escapeHTML(lang==='ru'?a.kickerRu:a.kicker)}</span></div><div class="author-description"><p class="statement">${escapeHTML(lang==='ru'?a.themeRu:a.theme)}</p><p class="intro-text">${escapeHTML(lang==='ru'?a.summaryRu:a.summary)}</p><p class="ru">${escapeHTML(lang==='ru'?a.summary:a.summaryRu)}</p></div>`;
+}
+// One shared selection surface slides between tabs, in the spirit of Motion Primitives' animated background.
+function moveWorkHighlight(){
+ const root=$('#workTabs'), active=root.querySelector('.work-tab.active'), indicator=root.querySelector('.work-tab-indicator');
+ if(!active||!indicator)return;
+ indicator.style.width=`${active.offsetWidth}px`;
+ indicator.style.height=`${active.offsetHeight}px`;
+ indicator.style.transform=`translate3d(${active.offsetLeft}px,${active.offsetTop}px,0)`;
+ indicator.style.opacity='1';
+}
+function renderWorkTabs(){
+ const a=getAuthor(),root=$('#workTabs');
+ if(root.dataset.author!==a.id||root.querySelectorAll('.work-tab').length!==a.works.length){
+  root.innerHTML=a.works.map((w,i)=>`<button type="button" class="work-tab" data-work="${i}" role="tab" aria-selected="false"><span>${two(i+1)}</span>${escapeHTML(lang==='ru'?w.ru:w.zh)}</button>`).join('')+'<span class="work-tab-indicator" aria-hidden="true"></span>';
+  root.dataset.author=a.id;
+  root.querySelectorAll('.work-tab').forEach(c=>c.addEventListener('click',()=>changeWork(Number(c.dataset.work))));
+ }
+ root.querySelectorAll('.work-tab').forEach((c,i)=>{
+  c.classList.toggle('active',i===activeWork);
+  c.setAttribute('aria-selected',String(i===activeWork));
+  c.tabIndex=i===activeWork?0:-1;
+  c.innerHTML=`<span>${two(i+1)}</span>${escapeHTML(lang==='ru'?a.works[i].ru:a.works[i].zh)}`;
+ });
+ requestAnimationFrame(moveWorkHighlight);
+}
+function renderThumbs(){
+ const w=getWork();$('#thumbCount').textContent=`01 — ${two(w.scenes.length)}`;
+ $('#thumbs').innerHTML=w.scenes.map((s,i)=>`<button class="thumb-button ${i===activeScene?'active':''}" type="button" data-scene="${i}" aria-current="${i===activeScene}" aria-label="${escapeHTML(lang==='ru'?s.ru:s.zh)}"><img loading="lazy" src="${s.image}" alt="${escapeHTML(lang==='ru'?s.ru:s.zh)}"/><div class="thumb-label"><span class="num">${two(i+1)}</span><span class="title">${escapeHTML(lang==='ru'?s.ru:s.zh)}</span></div></button>`).join('');
+ $$('.thumb-button').forEach(btn=>btn.addEventListener('click',()=>showScene(Number(btn.dataset.scene),true)));
+}
+let sceneTextTimer;
+function updateSceneText(immediate=false){
+ clearTimeout(sceneTextTimer);
+ const a=getAuthor(),w=getWork(),s=getScene();
+ const render=()=>{
+ $('#frameNumber').textContent=`${two(activeScene+1)} / ${two(w.scenes.length)}`;
+ $('#paintSerial').textContent=`${two(activeWork+1)} — ${two(activeScene+1)}`;
+ $('#stageWork').textContent=lang==='ru'?w.ru:w.zh;
+ $('#stageTitle').textContent=lang==='ru'?s.ru:s.zh;
+ $('#stageTitleRu').textContent=lang==='ru'?s.zh:s.ru;
+ $('#stageDesc').textContent=lang==='ru'?s.descRu:s.desc;
+ stageCopy.classList.remove('changing');
+ };
+ if(immediate||reduced)render();else{stageCopy.classList.add('changing');sceneTextTimer=window.setTimeout(render,210);}
+ $('#workIdea').textContent=lang==='ru'?w.ideaRu:w.idea;
+ $('#workIdeaRu').textContent=lang==='ru'?w.idea:w.ideaRu;
+ $('#workOverview').textContent=lang==='ru'?w.overviewRu:w.overview;
+ $$('.thumb-button').forEach((b,i)=>{b.classList.toggle('active',i===activeScene);b.setAttribute('aria-current',String(i===activeScene));});
+ const scroll=$('#thumbs');const thumb=scroll.children[activeScene];if(thumb){const target=thumb.offsetLeft-scroll.offsetLeft-scroll.clientWidth/2+thumb.clientWidth/2;scroll.scrollTo({left:target,behavior:reduced?'instant':'smooth'});}
+ $('#stageMedia').className='stage-media '+s.fx.split(/\s+/).map(x=>'fx-'+x).join(' ');
+ $('#lightboxCaption').textContent=(lang==='ru'?w.ru:w.zh)+' / '+(lang==='ru'?s.ru:s.zh);
+}
+let arcPosition=0, arcTarget=0, arcRaf=0;
+function drawArc(){
+ const frames=$$('#arcStage .arc-frame'), count=frames.length;
+ const radius=Math.min(690,Math.max(270,media.clientWidth*.58));
+ const step=count===2?Math.PI*.48:Math.PI*2/Math.max(count,7);
+ frames.forEach((frame,i)=>{
+  let delta=i-arcPosition;
+  if(count>2) delta=((delta+count/2)%count+count)%count-count/2;
+  const angle=delta*step, abs=Math.abs(delta);
+  const x=Math.sin(angle)*radius, z=(Math.cos(angle)-1)*radius*.76;
+  const y=(1-Math.cos(angle))*58;
+  frame.style.transform=`translate(-50%,-50%) translate3d(${x}px,${y}px,${z}px) rotateY(${-angle*180/Math.PI*.68}deg)`;
+  frame.style.opacity=abs>2.25?'0':String(Math.max(.24,1-abs*.26));
+  frame.style.zIndex=String(100-Math.round(abs*10));
+  frame.style.pointerEvents=abs>1.6?'none':'auto';
+  frame.setAttribute('aria-current',String(i===activeScene));
+  frame.tabIndex=i===activeScene?0:-1;
+ });
+}
+function animateArc(){
+ cancelAnimationFrame(arcRaf);
+ const start=arcPosition, end=arcTarget, begun=performance.now();
+ function tickArc(now){
+  const t=reduced?1:Math.min(1,(now-begun)/1050), ease=1-Math.pow(1-t,3);
+  arcPosition=start+(end-start)*ease;drawArc();
+  if(t<1)arcRaf=requestAnimationFrame(tickArc);
+ }
+ arcRaf=requestAnimationFrame(tickArc);
+}
+function renderArc(){
+ cancelAnimationFrame(arcRaf);arcPosition=arcTarget=activeScene;
+ $('#arcStage').innerHTML=getWork().scenes.map((scene,i)=>`<button type="button" class="arc-frame" data-arc="${i}" aria-label="${escapeHTML(scene.zh)}"><img src="${scene.image}" alt="${escapeHTML(scene.zh)}" decoding="async"/><span>${two(i+1)}</span></button>`).join('');
+ $$('#arcStage .arc-frame').forEach(frame=>frame.addEventListener('click',()=>{
+  const index=Number(frame.dataset.arc);if(index===activeScene)openLightbox();else showScene(index,true);
+ }));drawArc();
+}
+function loadImage(src,alt,immediate){
+ if(immediate){renderArc();return;}
+ const count=getWork().scenes.length;
+ let delta=activeScene-((Math.round(arcTarget)%count+count)%count);
+ if(count>2){if(delta>count/2)delta-=count;if(delta<-count/2)delta+=count;}
+ arcTarget+=delta;animateArc();
+}
+window.addEventListener('resize',drawArc,{passive:true});
+$('#arcStage').addEventListener('keydown',e=>{
+ if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();showScene(activeScene+(e.key==='ArrowRight'?1:-1),true);}
+});
+function updateScene(immediate=false){
+ const s=getScene();loadImage(s.image,lang==='ru'?s.ru:s.zh,immediate);updateSceneText(immediate);nextSceneTime=Date.now()+durationScene;
+ $('#storyProgressBar').style.width='0%';
+}
+function showScene(i,manual=false){
+ const w=getWork();activeScene=(i+w.scenes.length)%w.scenes.length;updateScene(false);
+ if(manual){coverManualUntil=Date.now()+13000;nextSceneTime=Date.now()+10500;}
+}
+function renderWork(){activeScene=0;renderWorkTabs();renderThumbs();updateScene(true)}
+function changeWork(idx){coverManualUntil=Date.now()+15000;if(idx<0||idx>=getAuthor().works.length)return;activeWork=idx;renderWork();}
+function changeAuthor(idx,manual=false){activeAuthor=(idx+authors.length)%authors.length;activeWork=0;activeScene=0;
+ updateCover();writeTheme();renderAuthorIntro();renderWork();if(manual)coverManualUntil=Date.now()+15000;
+}
+function refreshLanguage(){translateStatic();updateCover();renderAuthorIntro();renderWorkTabs();renderThumbs();renderArc();updateSceneText(true);}
+$('#langToggle').addEventListener('click',()=>{lang=lang==='zh'?'ru':'zh';refreshLanguage()});
+$('#authorPrev').addEventListener('click',()=>changeAuthor(activeAuthor-1,true));
+$('#authorNext').addEventListener('click',()=>changeAuthor(activeAuthor+1,true));
+$('#coverStage').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();changeAuthor(activeAuthor-1,true)}else if(e.key==='ArrowRight'){e.preventDefault();changeAuthor(activeAuthor+1,true)}else if(e.key==='Enter'){e.preventDefault();$('#works').scrollIntoView({behavior:reduced?'auto':'smooth'})}});
+// Drag-follow + spring snap: pointer movement previews the neighboring cards without locking vertical scrolling.
+const coverStage=$('#coverStage');
+let coverDrag=null, suppressCoverClick=false;
+coverStage.addEventListener('pointerdown',e=>{
+ if(e.button!==0||e.target.closest('a'))return;
+ coverDrag={pointerId:e.pointerId,startX:e.clientX,startY:e.clientY,moved:false,axis:null};
+});
+window.addEventListener('pointermove',e=>{
+ const d=coverDrag;if(!d||d.pointerId!==e.pointerId)return;
+ const dx=e.clientX-d.startX,dy=e.clientY-d.startY;
+ if(!d.axis&&Math.hypot(dx,dy)>9)d.axis=Math.abs(dx)>Math.abs(dy)*1.2?'horizontal':'vertical';
+ if(d.axis!=='horizontal')return;
+ d.moved=Math.abs(dx)>14;
+ coverStage.classList.add('is-dragging');
+ coverStage.style.setProperty('--cover-drag',`${Math.max(-185,Math.min(185,dx*.70))}px`);
+}, {passive:true});
+function endCoverDrag(e){
+ const d=coverDrag;if(!d||d.pointerId!==e.pointerId)return;
+ const delta=e.clientX-d.startX;
+ coverDrag=null;
+ coverStage.classList.remove('is-dragging');
+ coverStage.style.removeProperty('--cover-drag');
+ if(d.axis==='horizontal'&&Math.abs(delta)>46){
+  suppressCoverClick=true;
+  changeAuthor(activeAuthor+(delta<0?1:-1),true);
+  setTimeout(()=>{suppressCoverClick=false},70);
+ }
+}
+window.addEventListener('pointerup',endCoverDrag);
+window.addEventListener('pointercancel',()=>{
+ coverDrag=null;coverStage.classList.remove('is-dragging');coverStage.style.removeProperty('--cover-drag');
+});
+coverStage.addEventListener('click',e=>{
+ if(suppressCoverClick){e.stopImmediatePropagation();e.preventDefault();}
+},true);
+$('#coverStage').addEventListener('mouseenter',()=>coverHover=true);
+$('#coverStage').addEventListener('mouseleave',()=>coverHover=false);
+$('#coverStage').addEventListener('focusin',()=>coverHover=true);
+$('#coverStage').addEventListener('focusout',e=>{if(!$('#coverStage').contains(e.relatedTarget))coverHover=false});
+$('#workTabs').addEventListener('keydown',e=>{
+ if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home'&&e.key!=='End')return;
+ e.preventDefault();
+ const count=getAuthor().works.length;
+ const next=e.key==='Home'?0:e.key==='End'?count-1:(activeWork+(e.key==='ArrowRight'?1:-1)+count)%count;
+ changeWork(next);
+ $('#workTabs').querySelector('.work-tab.active')?.focus();
+});
+window.addEventListener('resize',()=>requestAnimationFrame(moveWorkHighlight),{passive:true});
+$('#stagePrev').addEventListener('click',()=>showScene(activeScene-1,true));
+$('#stageNext').addEventListener('click',()=>showScene(activeScene+1,true));
+const artwork=$('#artworkShell');
+artwork.addEventListener('mouseenter',()=>previewHover=true);
+artwork.addEventListener('mouseleave',()=>{previewHover=false;nextSceneTime=Date.now()+3000});
+artwork.addEventListener('focusin',()=>previewHover=true);
+artwork.addEventListener('focusout',e=>{if(!artwork.contains(e.relatedTarget)){previewHover=false;nextSceneTime=Date.now()+3000}});
+function togglePlay(){manualPaused=!manualPaused;$('#playIcon').textContent=manualPaused?'▶':'Ⅱ';$('#playLabel').textContent=manualPaused?T[lang].play:T[lang].pause;$('#playToggle').setAttribute('aria-pressed',String(manualPaused));nextSceneTime=Date.now()+durationScene;}
+$('#playToggle').addEventListener('click',togglePlay);
+let rafTime=0;function tick(ts){
+ if(ts-rafTime>120){rafTime=ts;const now=Date.now();const inactive=document.hidden||reduced||$('#lightbox').classList.contains('open');
+ if(!inactive&&worksVisible&&!manualPaused&&!previewHover){if(now>=nextSceneTime){showScene(activeScene+1);nextSceneTime=now+durationScene;}
+ $('#storyProgressBar').style.width=(Math.max(0,Math.min(100,100-(nextSceneTime-now)/durationScene*100)))+'%';}
+ else{$('#storyProgressBar').style.width='0%';if(now>nextSceneTime)nextSceneTime=now+durationScene;}
+ if(!inactive&&!manualPaused&&!worksVisible&&coversVisible&&!coverHover&&now>coverManualUntil&&now>=nextCoverTime){changeAuthor(activeAuthor+1,false);nextCoverTime=now+durationCover;} }
+ window.requestAnimationFrame(tick);
+}window.requestAnimationFrame(tick);
+if('IntersectionObserver' in window){
+ const secObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.target.id==='works')worksVisible=e.isIntersecting&&e.intersectionRatio>.23;if(e.target.id==='authors')coversVisible=e.isIntersecting&&e.intersectionRatio>.23;}),{threshold:[0,.23,.55]});secObserver.observe($('#authors'));secObserver.observe($('#works'));
+ const revealObs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObs.unobserve(e.target);}}),{threshold:.08,rootMargin:'0px 0px -25px 0px'});$$('.reveal').forEach(el=>revealObs.observe(el));
+ const navObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){$$('.main-nav a').forEach(a=>a.classList.toggle('active',a.hash==='#'+e.target.id));}})},{rootMargin:'-80px 0px -66% 0px',threshold:0});$$('main>section').forEach(el=>navObserver.observe(el));
+}else{$$('.reveal').forEach(el=>el.classList.add('visible'));worksVisible=true;coversVisible=true;}
+let ticking=false;function onScroll(){if(ticking)return;ticking=true;requestAnimationFrame(()=>{const doc=document.documentElement;const max=doc.scrollHeight-innerHeight;$('#scrollIndicator').style.width=(max>0?scrollY/max*100:0)+'%';$('#siteHeader').classList.toggle('scrolled',scrollY>15);ticking=false})}window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+$('.menu-toggle').addEventListener('click',()=>{const nav=$('.main-nav');const shown=nav.classList.toggle('open');$('.menu-toggle').setAttribute('aria-expanded',String(shown));});$$('.main-nav a').forEach(link=>link.addEventListener('click',()=>{$('.main-nav').classList.remove('open');$('.menu-toggle').setAttribute('aria-expanded','false');}));
+$$('.magnetic').forEach(el=>{if(reduced)return;el.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;const r=el.getBoundingClientRect();const x=(e.clientX-r.left-r.width/2)*.10;const y=(e.clientY-r.top-r.height/2)*.12;el.style.transform=`translate(${x}px,${y}px)`});el.addEventListener('pointerleave',()=>el.style.transform='')});
+$$('.map-point').forEach(el=>el.addEventListener('click',()=>{const index=authors.findIndex(a=>a.id===el.dataset.artist);if(index>=0){changeAuthor(index,true);$('#works').scrollIntoView({behavior:reduced?'auto':'smooth'})}}));
+// Enlarged painting follows the same scene order as the gallery.
+const lb=$('#lightbox');let lastFocus=null;
+function updateLightbox(){const s=getScene(),w=getWork();$('#lightboxImage').src=s.image;$('#lightboxImage').alt=lang==='ru'?s.ru:s.zh;$('#lightboxCaption').textContent=(lang==='ru'?w.ru:w.zh)+' / '+(lang==='ru'?s.ru:s.zh);}
+function openLightbox(){lastFocus=document.activeElement;lb.classList.add('open');lb.setAttribute('aria-hidden','false');document.body.classList.add('lightbox-open');updateLightbox();$('#lightboxClose').focus();}
+function closeLightbox(){lb.classList.remove('open');lb.setAttribute('aria-hidden','true');document.body.classList.remove('lightbox-open');if(lastFocus?.focus)lastFocus.focus();}
+$('#expandImage').addEventListener('click',openLightbox);
+$('#lightboxClose').addEventListener('click',closeLightbox);
+lb.addEventListener('click',e=>{if(e.target===lb)closeLightbox()});
+$('#lightboxPrev').addEventListener('click',()=>{showScene(activeScene-1,true);updateLightbox()});
+$('#lightboxNext').addEventListener('click',()=>{showScene(activeScene+1,true);updateLightbox()});
+document.addEventListener('keydown',e=>{if(lb.classList.contains('open')){if(e.key==='Escape')closeLightbox();if(e.key==='ArrowLeft'){$('#lightboxPrev').click()}if(e.key==='ArrowRight'){$('#lightboxNext').click()}if(e.key==='Tab'){const options=[$('#lightboxClose'),$('#lightboxPrev'),$('#lightboxNext')];let index=options.indexOf(document.activeElement);if(e.shiftKey&&index===0){e.preventDefault();options.at(-1).focus()}else if(!e.shiftKey&&index===options.length-1){e.preventDefault();options[0].focus()}}}});
+let artTouch=null;media.addEventListener('touchstart',e=>artTouch=e.changedTouches[0].clientX,{passive:true});media.addEventListener('touchend',e=>{if(artTouch===null)return;let delta=e.changedTouches[0].clientX-artTouch;artTouch=null;if(Math.abs(delta)>55)showScene(activeScene+(delta<0?1:-1),true)},{passive:true});
+// Start with the cover selected by chronological order.
+translateStatic();renderCover();writeTheme();renderAuthorIntro();renderWork();
+})();
+</script>
+</body></html>
